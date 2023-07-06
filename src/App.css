@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+#root {
+  width: 100vw;
+  overflow: hidden;
+}
+.btn {
+  @apply text-[#8B4513] border-2 border-[#8B4513] rounded-md shadow-lg p-1 hover:scale-[1.05] ease-in duration-100 cursor-pointer hover:bg-bordercolor hover:text-white;
+}
+.btn-bg {
+  @apply border-2 bg-bordercolor text-white   rounded-md shadow-lg p-1 hover:scale-[1.05] ease-in duration-100 cursor-pointer hover:bg-white hover:border-[#8B4513] hover:text-[#8B4513];
+}

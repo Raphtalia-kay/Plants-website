@@ -1,0 +1,58 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    
+    margin-left : 100px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+    color : black;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .breadcrumb a:hover {
+    color: #004499;
+  }
+
+  /* Basic styling for the pagination container */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* Styles for each pagination item */
+.pagination-item {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 4px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Styles for pagination item on hover */
+.pagination-item:hover {
+    background-color: #ddd;
+    border-color: #999;
+    cursor: pointer;
+}
+
+/* Optional: You can style the active page number differently */
+.pagination-item.active {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+  
+  
+  
